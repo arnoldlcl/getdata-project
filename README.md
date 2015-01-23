@@ -9,6 +9,7 @@ run_analysis.R requires the following libraries:
 - dplyr
 
 The script goes through the following steps:
+
 1. Read features.txt, which gives the variable names for all 561 columns in the training and test sets
 2. Use features.txt to create vectors identifying the columns that measure mean and standard deviation
 3. Read the training set into R
